@@ -55,7 +55,7 @@ const canvas = document.querySelector("canvas");
     };
 
     const banner = new Image();
-    banner.src = "./frame.png";
+    banner.src = "./img/frame.png";
     banner.onload = () => {
       draw();
     };
